@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from "react";
-import two from "./two.jpeg";
+import axios from "axios";
 import "./home.css";
 import Template from "./template"
 
@@ -21,10 +21,11 @@ function Home() {
 
 
 useEffect(() => {
- fetch("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=KtHmfQGQoOYPBNUPUrN17ulVNFGkfdzf")
-    .then(result=>result.json())
-    .then( res=>
+ axios.get("https://api.nytimes.com/svc/topstories/v2/world.json?api-key=KtHmfQGQoOYPBNUPUrN17ulVNFGkfdzf")
+    .then( result => 
     {
+        let res = result.data
+    
       let ima = res.results[0].multimedia[0].url
       let ima1 = res.results[1].multimedia[0].url
       let ima2 = res.results[2].multimedia[0].url
@@ -39,7 +40,7 @@ useEffect(() => {
       let ink = res.results[0].short_url
       let ink1 = res.results[1].short_url
       let ink2 = res.results[2].short_url
-     console.log(res.split(0,3))
+     
      setTitle(tit)
      setBody(tle)
      setBody1(tle1)
