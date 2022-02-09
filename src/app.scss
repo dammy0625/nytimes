@@ -1,4 +1,6 @@
 @import "./var";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 
 .container{
     width: 100%;
@@ -38,11 +40,15 @@
             h1{
                 font-weight: 500;
                 padding-left: 10px;
+                font-family: 'Monoton', cursive;
+                font-size: 25px;
+               
             }
             h6{
                 margin-top: 60px;
                 margin-right: 2px;
                 font-weight: lighter;
+                font-family: 'Dancing Script', cursive;
             }
            
         }
@@ -58,7 +64,7 @@
             ul{
                 position: absolute;
                 width: 70%;
-                font-family:  Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Rowdies', cursive;
                 list-style-type: none;
                 text-transform: capitalize;
 
@@ -67,6 +73,7 @@
                     color: darken($grey, 30%);
                     position: relative;
                     cursor: pointer;
+                    font-family: 'Montserrat', sans-serif;
 
                 &:hover  div{
                         
