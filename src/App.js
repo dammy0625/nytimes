@@ -1,8 +1,9 @@
-import React, {useEffect,useState} from "react";
+import React from "react";
 import two from "./two.jpeg";
 import "./app.css";
-import Home from "./home" 
-import {BrowserRouter as Router,Routes,Route,Outlet} from "react-router-dom";
+import Home from "./home" ;
+import Business from "./business";
+import {BrowserRouter as Router,Routes,Route,Outlet,Link} from "react-router-dom";
 
 
 
@@ -36,12 +37,16 @@ return (
          <div className="category" >
             <ul>
                <h3>category</h3>
-               <li>hola <div></div></li>
-               <li>hola <div></div></li>
-               <li>hola <div></div></li>
-               <li>hola <div></div></li>
-               <li>hola <div></div></li>
-               <li>hola <div></div></li>
+               
+               <li><Link to="/business" >business</Link><div></div></li>
+               <li>sports <div></div></li>
+               <li>travel <div></div></li>
+               <li>movies <div></div></li>
+               <li>food<div></div></li>
+               <li>technology<div></div></li>
+               <li>science<div></div></li>
+               <li>fashion<div></div></li>
+               <li>insider<div></div></li>
                
                
             </ul>
@@ -54,6 +59,7 @@ return (
 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/business" element={<Business/>}></Route>
       </Routes>
    
    

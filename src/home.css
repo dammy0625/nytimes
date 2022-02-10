@@ -412,7 +412,7 @@
   }
   .main .sec li {
     width: 110%;
-    margin-left: -10%;
+    margin-left: -11%;
     margin-top: 20px;
   }
   .main .sec li:nth-child(1) {
@@ -513,7 +513,6 @@
             align-items: end;
   }
   .main .sec li div h1 {
-    font-family: 'Bangers', cursive;
     font-size: 14px;
   }
   .main .sec li div h6 {

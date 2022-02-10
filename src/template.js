@@ -48,7 +48,7 @@ function Template(prop) {
 { prop.list ? prop.list.map(red =>
   (
     <li>
-    <img src={red.multimedia[0].url} alt={red.section}></img>
+    {red.multimedia ? <img src={red.multimedia[1].url} alt={red.section }></img> : ''}
     <div>
       <h1>{red.title}</h1>
       <h6>{red.abstract}</h6>
