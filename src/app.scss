@@ -69,11 +69,16 @@
                 text-transform: capitalize;
 
                 li{
-                    margin-top: 30px;
+                    margin-top: 25px;
                     color: darken($grey, 30%);
                     position: relative;
                     cursor: pointer;
                     font-family: 'Montserrat', sans-serif;
+
+                    a{
+                        color: darken($grey, 30%);
+                        text-decoration: none;
+                    }
 
                 &:hover  div{
                         
@@ -123,7 +128,7 @@
 
         div{
             box-shadow: $shadow;
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             width: auto;
             border-radius:0px;
             

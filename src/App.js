@@ -3,6 +3,14 @@ import two from "./two.jpeg";
 import "./app.css";
 import Home from "./home" ;
 import Business from "./business";
+import Sports from "./sports";
+import Travel from "./travel";
+import Movies from "./movies";
+import Food from "./food";
+import Technology from "./technology";
+import Science from "./science";
+import Fashion from "./fashion";
+import Insider from "./insider";
 import {BrowserRouter as Router,Routes,Route,Outlet,Link} from "react-router-dom";
 
 
@@ -39,14 +47,15 @@ return (
                <h3>category</h3>
                
                <li><Link to="/business" >business</Link><div></div></li>
-               <li>sports <div></div></li>
-               <li>travel <div></div></li>
-               <li>movies <div></div></li>
-               <li>food<div></div></li>
-               <li>technology<div></div></li>
-               <li>science<div></div></li>
-               <li>fashion<div></div></li>
-               <li>insider<div></div></li>
+               <li><Link to="/" >world</Link><div></div></li>
+               <li><Link to="/sports" >sports </Link><div></div></li>
+               <li><Link to="/travel" >travel</Link> <div></div></li>
+               <li><Link to="/movies" >movies</Link> <div></div></li>
+               <li><Link to="/food" >food</Link> <div></div></li>
+               <li><Link to="/technology" >technology</Link> <div></div></li>
+               <li><Link to="/science" >science</Link> <div></div></li>
+               <li><Link to="/fashion" >fashion</Link> <div></div></li>
+               <li><Link to="/insider" >insider</Link> <div></div></li>
                
                
             </ul>
@@ -60,6 +69,14 @@ return (
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/business" element={<Business/>}></Route>
+        <Route path="/sports" element={<Sports/>}></Route>
+        <Route path="/travel" element={<Travel/>}></Route>
+        <Route path="/movies" element={<Movies/>}></Route>
+        <Route path="/food" element={<Food/>}></Route>
+        <Route path="/technology" element={<Technology/>}></Route>
+        <Route path="/science" element={<Science/>}></Route>
+        <Route path="/fashion" element={<Fashion/>}></Route>
+        <Route path="/insider" element={<Insider/>}></Route>
       </Routes>
    
    

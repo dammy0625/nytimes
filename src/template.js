@@ -7,7 +7,7 @@ function Template(prop) {
     return (
         <div>
               <div  className="main" >
-                <h1 className="trending" >todays headlines</h1>
+                <h1 className="trending" >today's headlines in {prop.section}</h1>
 
                 {
                  prop.image ?

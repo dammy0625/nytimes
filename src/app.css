@@ -83,11 +83,16 @@
 }
 
 .container .sider .category ul li {
-  margin-top: 30px;
+  margin-top: 25px;
   color: #343434;
   position: relative;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
+}
+
+.container .sider .category ul li a {
+  color: #343434;
+  text-decoration: none;
 }
 
 .container .sider .category ul li:hover div {
