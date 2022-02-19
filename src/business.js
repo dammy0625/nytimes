@@ -29,20 +29,20 @@ useEffect(() => {
 
         
        
-      let ima =res.results[0].title ?  res.results[0].multimedia[0].url : res.results[2].multimedia[0].url
-      let ima1 = res.results[3].abstract ? res.results[3].multimedia[0].url : res.results[5].multimedia[0].url
-      let ima2 = res.results[4].multimedia[0].url
-      let tit = res.results[0].title ? res.results[0].title : res.results[2].title
-      let tle = res.results[0].title ?  res.results[0].abstract : res.results[2].abstract
-      let tle1= res.results[3].abstract ? res.results[3].abstract : res.results[5].abstract
-      let tle2= res.results[4].abstract
-      let auth = res.results[0].title ? res.results[0].byline : res.results[2].byline
-      let sect = res.results[0].title ? res.results[0].section : res.results[2].section
-      let sect1 =  res.results[3].abstract ? res.results[3].section : res.results[5].section
-      let sect2 = res.results[4].section
-      let ink = res.results[0].title ? res.results[0].short_url : res.results[2].short_url
-      let ink1 = res.results[3].short_url
-      let ink2 = res.results[4].short_url
+      let ima = res.results[0].multimedia[0].url
+      let ima1 =res.results[1].multimedia[0].url
+      let ima2 = res.results[2].multimedia[0].url
+      let tit =  res.results[0].title 
+      let tle =  res.results[0].abstract 
+      let tle1=  res.results[1].abstract
+      let tle2= res.results[2].abstract
+      let auth =res.results[0].byline
+      let sect = res.results[0].section
+      let sect1 =  res.results[1].section 
+      let sect2 = res.results[2].section
+      let ink =  res.results[0].short_url
+      let ink1 = res.results[1].short_url
+      let ink2 = res.results[2].short_url
 
       res.results.splice(0,5)
       let slic = res.results

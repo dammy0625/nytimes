@@ -17,7 +17,7 @@ function Template(prop) {
    <img src={prop.image ? prop.image : two} alt="news" ></img>
    <h3>{prop.section? prop.section : "" }</h3><p>{prop.author ? prop.author : "muyiwa opeyemi damilola"}</p>
    <h1>{prop.title }</h1>
-   <h6>{prop.body ? prop.body : "hmm , na wetin we find go nno be our eyes see for river oo, na so we see one old man jump comot for bush dey chase us"}</h6>
+   <h6>{prop.body ? prop.body : "NO STORY"}</h6>
    <a href={prop.link} >read more ...</a>
    
    </div>
@@ -25,8 +25,8 @@ function Template(prop) {
 
 <div className="div2">
 <img src={prop.image1 ? prop.image1 : two} alt="image" ></img>
-<h3>{prop.section1 ? prop.section : ""}</h3>
-<h6>{prop.body1 ? prop.body : "NO STORY"}</h6>
+<h3>{prop.section1 ? prop.section1 : ""}</h3>
+<h6>{prop.body1 ? prop.body1 : "NO STORY"}</h6>
    
    <a href={prop.link1} >read more ...</a>
  </div>
