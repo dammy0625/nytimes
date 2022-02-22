@@ -118,7 +118,7 @@
 @media (max-width: 450px) {
   .container .sider {
     width: 100vw;
-    height: 60px;
+    height: 100px;
     position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
