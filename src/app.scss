@@ -158,8 +158,8 @@
             height: 50%;
             position: relative;
             align-items: center;
-            
-            overflow: scroll;
+            overflow-y: hidden;
+            overflow-x: scroll;
             &::-webkit-scrollbar{
                 display: none;
             }
@@ -171,10 +171,11 @@
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-                margin-left: 100%;
+                margin-left: 110%;
                 padding: 10px;
                 li{
                     margin: 0;
+                    margin-left: 10px;
                 }
                 h3{
                     display: none;

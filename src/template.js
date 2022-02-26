@@ -64,7 +64,7 @@ function Template(prop) {
 
 </div>
 
-:  <div className="parent" >
+:  <div className="parent" id="par" >
   <div className="div1" id="anime" ></div>
   <div className="div2" id="anime"></div>
   <div className="div3" id="anime"></div>

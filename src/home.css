@@ -539,7 +539,7 @@
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     margin-top: 50px;
-    height: 80vh;
+    height: 600px;
   }
   .main .parent div {
     background-color: white;
@@ -649,6 +649,9 @@
   }
   .main .div3 a {
     font-size: 12px;
+  }
+  #par {
+    height: 60vh;
   }
 }
 /*# sourceMappingURL=home.css.map */

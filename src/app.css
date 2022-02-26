@@ -165,7 +165,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
   }
   .container .sider .category::-webkit-scrollbar {
     display: none;
@@ -181,11 +182,12 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 100%;
+    margin-left: 110%;
     padding: 10px;
   }
   .container .sider .category ul li {
     margin: 0;
+    margin-left: 10px;
   }
   .container .sider .category ul h3 {
     display: none;
