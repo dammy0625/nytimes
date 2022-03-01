@@ -39,7 +39,7 @@
            
 
             li{
-                width: 100%;
+                width: 46%;
                 height: inherit;
                 background-color: white;
                 box-shadow: $shadow;
@@ -50,6 +50,7 @@
                 &:nth-child(1){
                     height: 300px;
                     position: relative;
+                    width: 100%;
 
                     img{
                         position: absolute;
@@ -73,6 +74,7 @@
                 &:nth-child(9){
                     height: 300px;
                     position: relative;
+                    width: 100%;
 
                     img{
                         position: absolute;
@@ -96,6 +98,7 @@
                 &:nth-child(15){
                     height: 300px;
                     position: relative;
+                    width: 100%;
 
                     img{
                         position: absolute;
@@ -119,6 +122,7 @@
                 &:nth-child(21){
                     height: 300px;
                     position: relative;
+                    width: 100%;
 
                     img{
                         position: absolute;
@@ -370,6 +374,7 @@
                  &:nth-child(1){
                     height: 200px;
                     position: relative;
+                    width: 110%;
 
                     img{
                         position: absolute;
@@ -393,6 +398,7 @@
                 &:nth-child(9){
                     height: 200px;
                     position: relative;
+                    width: 110%;
 
                     img{
                         position: absolute;
@@ -416,6 +422,7 @@
                 &:nth-child(15){
                     height: 200px;
                     position: relative;
+                    width: 110%;
 
                     img{
                         position: absolute;
@@ -439,6 +446,7 @@
                 &:nth-child(21){
                     height: 200px;
                     position: relative;
+                    width: 110%;
 
                     img{
                         position: absolute;
@@ -494,7 +502,7 @@
             margin-left: 50%;
             transform: translateX(-50%);
             margin-top: 50px;
-            height: 600px;
+            height: 800px;
             
             div{
                 background-color: white;

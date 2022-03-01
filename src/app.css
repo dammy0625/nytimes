@@ -190,6 +190,8 @@
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
+    margin-left: 100px;
+    padding: 10px;
   }
   .container .sider .category ul li {
     margin: 0;
